@@ -19,5 +19,5 @@ Screenshot of Ruby and JavaScript
 
 If you like this theme checkout [One Dark Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.theme-onedark)
 
-## Change log
-You can take a look at the change log [here](https://github.com/azemoh/vscode-one-monokai/blob/master/CHANGELOG.md)
+## Changelog
+You can take a look at the changelog [here](https://github.com/azemoh/vscode-one-monokai/blob/master/CHANGELOG.md)

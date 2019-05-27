@@ -1,21 +1,6 @@
 {
   "tokenColors": [
     {
-      "settings": {
-        "background": "#282c34",
-        "foreground": "#abb2bf",
-        "findHighlight": "#FFE792",
-        "findHighlightForeground": "#000000",
-        "selectionBorder": "#222218",
-        "activeGuide": "#9D550FB0",
-        "bracketsForeground": "#F8F8F2A5",
-        "bracketsOptions": "underline",
-        "bracketContentsForeground": "#F8F8F2A5",
-        "bracketContentsOptions": "underline",
-        "tagsOptions": "stippled_underline"
-      }
-    },
-    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -33,13 +18,37 @@
         "foreground": "#e5c07b"
       }
     },
+		{
+			"name": "Template Definition",
+			"scope": [
+				"punctuation.definition.template-expression",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
     {
       "name": "js template-expression",
-      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
       "settings": {
         "foreground": "#c678dd"
       }
     },
+		{
+			"name": "Reset JavaScript string interpolation expression",
+			"scope": [
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#F8F8F2"
+			}
+		},
     {
       "name": "TemplateString",
       "scope": "string.template.js",
@@ -62,7 +71,7 @@
       }
     },
     {
-      "name": "Embeded String Begin and End",
+      "name": "Embedded String Begin and End",
       "scope": [
         "string.embedded.begin",
         "string.embedded.end"
@@ -72,7 +81,14 @@
       }
     },
     {
-      "name": "Embeded String",
+      "name": "Embedded code",
+      "scope": "meta.embedded.line",
+      "settings": {
+        "foreground": "#bbbbbbff"
+      }
+    },
+    {
+      "name": "Embedded String",
       "scope": "string.embedded",
       "settings": {
         "foreground": "#98c379"
@@ -351,7 +367,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#c678dd",
         "foreground": "#F8F8F0"
       }
     },
@@ -359,7 +374,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#56b6c2",
         "foreground": "#F8F8F0"
       }
     },
@@ -431,7 +445,7 @@
       "name": "Markup: Emphasis Punctuation",
       "scope": "punctuation.definition.italic.markdown",
       "settings": {
-        "fontStyle": "none",
+        "fontStyle": "",
         "foreground": "#696969"
       }
     },
@@ -453,7 +467,7 @@
       "name": "Markdown: Bold Punctuation",
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "fontStyle": "none",
+        "fontStyle": "",
         "foreground": "#696969"
       }
     },
@@ -469,7 +483,7 @@
       "name": "Markdown: Heading",
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "fontStyle": "none",
+        "fontStyle": "",
         "foreground": "#696969"
       }
     },
@@ -490,7 +504,10 @@
     },
     {
       "name": "Markdown: Raw",
-      "scope": "markup.raw.inline.markdown, markup.raw.block.markdown",
+      "scope": [
+        "markup.raw.inline.markdown",
+        "markup.raw.block.markdown"
+      ],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -519,9 +536,7 @@
     "editor.lineHighlightBackground": "#383E4A",
     "editor.selectionBackground": "#3E4451",
     "editorCursor.foreground": "#f8f8f0",
-    "editor.editor.findMatchBackground": "#42557B",
     "editor.findMatchHighlightBackground": "#314365",
-    "editorGroup.background": "#181A1F",
     "editorGroup.border": "#181A1F",
     "editorGroupHeader.tabsBackground": "#21252B",
     "editorIndentGuide.background": "#3B4048",
@@ -541,7 +556,6 @@
     "list.highlightForeground": "#C5C5C5",
     "list.inactiveSelectionBackground": "#2c313a",
     "list.inactiveSelectionForeground": "#d7dae0",
-    "notification.background": "#21252b",
     "scrollbarSlider.background": "#4E566680",
     "scrollbarSlider.activeBackground": "#747D9180",
     "scrollbarSlider.hoverBackground": "#5A637580",
