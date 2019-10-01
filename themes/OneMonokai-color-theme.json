@@ -102,8 +102,8 @@
     {
       "name": "Embedded Begin/End ERB",
       "scope": [
-        "punctation.section.embedded.begin.erb",
-        "punctation.section.embedded.end.erb"
+        "punctuation.section.embedded.begin.erb",
+        "punctuation.section.embedded.end.erb"
       ],
       "settings": {
         "foreground": "#bbbbbbff"
@@ -196,9 +196,8 @@
     {
       "name": "Variable Object",
       "scope": [
-        "variable.other.object",
-        "variable.other.constant",
         "variable.other.readwrite.class",
+        "variable.other.object",
         "variable.readwrite",
         "variable.readwrite.other.block"
       ],
@@ -207,9 +206,10 @@
       }
     },
     {
-      "name": "Instance Variable",
+      "name": "Normal or Instance Variable",
       "scope": [
-        "variable.other.readwrite.instance"
+        "variable.other.readwrite.instance",
+        "variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#bbbbbbff"
@@ -220,6 +220,7 @@
       "scope": [
         "variable.other",
         "variable.other.property",
+        "variable.other.constant",
         "variable.other.block"
       ],
       "settings": {
