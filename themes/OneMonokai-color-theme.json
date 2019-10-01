@@ -74,7 +74,9 @@
       "name": "String",
       "scope": [
         "string",
-        "string.template"
+        "string.template",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
       ],
       "settings": {
         "foreground": "#e5c07b"
@@ -118,7 +120,8 @@
         "punctuation.separator",
         "punctuation.accessor",
         "meta.brace",
-        "meta.embedded"
+        "meta.embedded",
+        "string.unquoted.heredoc.ruby"
       ],
       "settings": {
         "foreground": "#bbbbbbff"
