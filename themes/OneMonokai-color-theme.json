@@ -100,6 +100,16 @@
       }
     },
     {
+      "name": "Embedded Begin/End ERB",
+      "scope": [
+        "punctation.section.embedded.begin.erb",
+        "punctation.section.embedded.end.erb"
+      ],
+      "settings": {
+        "foreground": "#bbbbbbff"
+      }
+    },
+    {
       "name": "Default Embedded Color",
       "scope": [
         "punctuation.section.embedded.begin.js",
