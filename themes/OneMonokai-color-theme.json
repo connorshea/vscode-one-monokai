@@ -189,12 +189,20 @@
         "variable.other.object",
         "variable.other.constant",
         "variable.other.readwrite.class",
-        "variable.other.readwrite.instance",
         "variable.readwrite",
         "variable.readwrite.other.block"
       ],
       "settings": {
         "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Instance Variable",
+      "scope": [
+        "variable.other.readwrite.instance"
+      ],
+      "settings": {
+        "foreground": "#bbbbbbff"
       }
     },
     {
