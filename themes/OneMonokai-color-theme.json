@@ -1,5 +1,5 @@
 {
-  "name": "One Monokai",
+  "name": "Connor's One Monokai",
   "type": "dark",
   "colors": {
     "activityBar.background": "#2F333D",
@@ -66,7 +66,8 @@
         "string.comment"
       ],
       "settings": {
-        "foreground": "#676f7d"
+        "foreground": "#676f7d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -106,10 +107,11 @@
         "source.elixir.embedded",
         "punctuation.separator",
         "punctuation.accessor",
-        "meta.brace"
+        "meta.brace",
+        "meta.embedded"
       ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#bbbbbbff"
       }
     },
     {
