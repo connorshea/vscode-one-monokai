@@ -2,61 +2,61 @@
   "name": "Connor's One Monokai",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#2F333D",
-    "activityBar.foreground": "#D7DAE0",
+    "activityBar.background": "#2f333d",
+    "activityBar.foreground": "#d7dae0",
     "activityBarBadge.background": "#528bff",
-    "activityBarBadge.foreground": "#F8FAFD",
+    "activityBarBadge.foreground": "#f8fafd",
     "button.background": "#528bff",
-    "diffEditor.insertedTextBackground": "#00809B33",
+    "diffEditor.insertedTextBackground": "#00809b33",
     "dropdown.background": "#1d1f23",
-    "dropdown.border": "#181A1F",
+    "dropdown.border": "#181a1f",
     "editor.background": "#282c34",
-    "editor.findMatchBackground": "#42557B",
+    "editor.findMatchBackground": "#42557b",
     "editor.findMatchHighlightBackground": "#314365",
-    "editor.lineHighlightBackground": "#383E4A",
-    "editor.selectionBackground": "#3E4451",
+    "editor.lineHighlightBackground": "#383e4a",
+    "editor.selectionBackground": "#3e4451",
     "editorCursor.foreground": "#f8f8f0",
     "editorError.foreground": "#c24038",
-    "editorGroup.emptyBackground": "#181A1F",
-    "editorGroup.border": "#181A1F",
-    "editorGroupHeader.tabsBackground": "#21252B",
-    "editorIndentGuide.background": "#3B4048",
-    "editorHoverWidget.background": "#21252B",
-    "editorHoverWidget.border": "#181A1F",
+    "editorGroup.emptyBackground": "#181a1f",
+    "editorGroup.border": "#181a1f",
+    "editorGroupHeader.tabsBackground": "#21252b",
+    "editorIndentGuide.background": "#3b4048",
+    "editorHoverWidget.background": "#21252b",
+    "editorHoverWidget.border": "#181a1f",
     "editorLineNumber.foreground": "#495162",
     "editorRuler.foreground": "#484848",
-    "editorSuggestWidget.background": "#21252B",
-    "editorSuggestWidget.border": "#181A1F",
+    "editorSuggestWidget.background": "#21252b",
+    "editorSuggestWidget.border": "#181a1f",
     "editorSuggestWidget.selectedBackground": "#2c313a",
     "editorUnnecessaryCode.opacity": "#000000c0",
     "editorWhitespace.foreground": "#484a50",
-    "editorWidget.background": "#21252B",
+    "editorWidget.background": "#21252b",
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#2c313a",
     "list.activeSelectionForeground": "#d7dae0",
-    "list.focusBackground": "#383E4A",
-    "list.highlightForeground": "#C5C5C5",
+    "list.focusBackground": "#383e4a",
+    "list.highlightForeground": "#c5c5c5",
     "list.hoverBackground": "#292d35",
     "list.inactiveSelectionBackground": "#2c313a",
     "list.inactiveSelectionForeground": "#d7dae0",
     "notifications.background": "#21252b",
-    "scrollbarSlider.activeBackground": "#747D9180",
-    "scrollbarSlider.background": "#4E566680",
-    "scrollbarSlider.hoverBackground": "#5A637580",
+    "scrollbarSlider.activeBackground": "#747d9180",
+    "scrollbarSlider.background": "#4e566680",
+    "scrollbarSlider.hoverBackground": "#5a637580",
     "sideBar.background": "#21252b",
     "sideBarSectionHeader.background": "#282c34",
-    "statusBar.background": "#21252B",
+    "statusBar.background": "#21252b",
     "statusBar.foreground": "#9da5b4",
     "statusBarItem.hoverBackground": "#2c313a",
-    "statusBar.noFolderBackground": "#21252B",
-    "statusBar.debuggingBackground": "#21252B",
-    "tab.activeBackground": "#383E4A",
-    "tab.border": "#181A1F",
-    "tab.inactiveBackground": "#21252B",
+    "statusBar.noFolderBackground": "#21252b",
+    "statusBar.debuggingBackground": "#21252b",
+    "tab.activeBackground": "#383e4a",
+    "tab.border": "#181a1f",
+    "tab.inactiveBackground": "#21252b",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
-    "titleBar.inactiveBackground": "#282C34",
-    "titleBar.inactiveForeground": "#6B717D"
+    "titleBar.inactiveBackground": "#282c34",
+    "titleBar.inactiveForeground": "#6b717d"
   },
   "tokenColors": [
     {
@@ -205,7 +205,7 @@
         "variable.other.block"
       ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#bbbbbbff"
       }
     },
     {
@@ -251,7 +251,7 @@
       "name": "Function call",
       "scope": "entity.name.function-call",
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#bbbbbbff"
       }
     },
     {
@@ -324,7 +324,7 @@
         "support.type.property-name.sass"
       ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#bbbbbbff"
       }
     },
     {
@@ -414,7 +414,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#c678dd",
         "foreground": "#F8F8F0"
       }
     },
@@ -422,7 +421,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#56b6c2",
         "foreground": "#F8F8F0"
       }
     },
