@@ -2,7 +2,7 @@
     "name": "connors-one-monokai",
     "displayName": "Connor's One Monokai Fork Theme",
     "description": "A cross between Monokai and One Dark theme, forked by Connor Shea",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "publisher": "connorshea",
     "engines": {
         "vscode": "^1.36.0"
