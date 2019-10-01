@@ -198,6 +198,7 @@
       "scope": [
         "variable.other.readwrite.class",
         "variable.other.object",
+        "variable.other.constant",
         "variable.readwrite",
         "variable.readwrite.other.block"
       ],
@@ -220,7 +221,6 @@
       "scope": [
         "variable.other",
         "variable.other.property",
-        "variable.other.constant",
         "variable.other.block"
       ],
       "settings": {
